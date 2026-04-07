@@ -40,8 +40,8 @@ ollama pull llama3.2:1b
 
 ```bash
 # Clone the repo
-git clone https://github.com/arkalibaig/llama3.2-1b-home-server.git
-cd llama3.2-1b-home-server
+git clone https://github.com/arkalibaig/mobile-llm-inference.git
+cd mobile-llm-inference
 
 # Install dependencies
 pip install -r requirements.txt
