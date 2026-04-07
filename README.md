@@ -1,11 +1,11 @@
-# Pocket Llama 3.2 (1B)
+# Local LLM Interference
 A mobile-responsive web interface that transforms your local hardware into a private AI Cloud.
 
-Securely chat with Meta's Llama 3.2 (or any model of your choice) from your phone, tablet, or laptop across your local network. No data leaves your machine, no internet is required, and your privacy is 100% locally hosted.
+Securely chat with any model of your choice from your phone, tablet, or laptop across your local network. No data leaves your machine, no internet is required, and your privacy is 100% locally hosted.
 
 ## How It Works
 
-1. **Backend:** Ollama serves as the inference engine, running Llama 3.2 (or any GGUF-compatible model) and exposing a local REST API.
+1. **Backend:** Ollama serves as the inference engine, running any GGUF-compatible model and exposing a local REST API.
 2. **Middleware:** A Streamlit Python app manages chat history and communicates with Ollama.
 3. **Frontend:** Any mobile browser connects to the Streamlit server over Wi-Fi.
 
