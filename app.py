@@ -1,7 +1,7 @@
 import streamlit as st
 import requests 
 
-st.title("Arkali Intelligence")
+st.title("LLM-Local")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [{"role": "system", "content": "You are an ai assistant. Provide direct answers without unnecessary fluff, also you're running locally on my laptop. and be chill"}]
